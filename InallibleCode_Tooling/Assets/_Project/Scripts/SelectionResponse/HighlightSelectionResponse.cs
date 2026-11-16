@@ -1,25 +1,28 @@
 using UnityEngine;
 
-internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
+namespace _Project.Scripts.SelectionResponse
 {
-    [SerializeField] public Material highlightMaterial;
-    [SerializeField] public Material defaultMaterial;
-
-    public void OnDeselect(Transform selection)
+    internal class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
     {
-        var selectionRenderer = selection.GetComponent<Renderer>();
-        if (selectionRenderer != null)
+        [SerializeField] public Material highlightMaterial;
+        [SerializeField] public Material defaultMaterial;
+
+        public void OnDeselect(Transform selection)
         {
-            selectionRenderer.material = defaultMaterial;
+            var selectionRenderer = selection.GetComponent<Renderer>();
+            if (selectionRenderer != null)
+            {
+                selectionRenderer.material = defaultMaterial;
+            }
         }
-    }
 
-    public void OnSelect(Transform selection)
-    {
-        var selectionRenderer = selection.GetComponent<Renderer>();
-        if (selectionRenderer != null)
+        public void OnSelect(Transform selection)
         {
-            selectionRenderer.material = highlightMaterial;
+            var selectionRenderer = selection.GetComponent<Renderer>();
+            if (selectionRenderer != null)
+            {
+                selectionRenderer.material = highlightMaterial;
+            }
         }
     }
 }

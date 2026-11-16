@@ -1,7 +1,10 @@
 using UnityEngine;
 
-public interface ISelectionResponse
+namespace _Project.Scripts.SelectionResponse
 {
-    void OnSelect(Transform selection);
-    void OnDeselect(Transform selection);
+    public interface ISelectionResponse
+    {
+        void OnSelect(Transform selection);
+        void OnDeselect(Transform selection);
+    }
 }

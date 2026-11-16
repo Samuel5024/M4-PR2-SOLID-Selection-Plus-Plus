@@ -1,23 +1,26 @@
 using UnityEngine;
 
-public class IndicatorSelectionResponse : MonoBehaviour, ISelectionResponse
+namespace _Project.Scripts.SelectionResponse
 {
-    [SerializeField] private GameObject indicatorPrefab;
-    [SerializeField] private Vector3 offset;
-
-    private GameObject _indicator;
-
-    public void OnSelect(Transform selection)
+    public class IndicatorSelectionResponse : MonoBehaviour, ISelectionResponse
     {
-        _indicator =  Instantiate(indicatorPrefab, selection);
-        _indicator.transform.localPosition += offset;
-    }
+        [SerializeField] private GameObject indicatorPrefab;
+        [SerializeField] private Vector3 offset;
 
-    public void OnDeselect(Transform selection)
-    {
-        if (_indicator != null)
+        private GameObject _indicator;
+
+        public void OnSelect(Transform selection)
         {
-            Destroy(_indicator);
+            _indicator =  Instantiate(indicatorPrefab, selection);
+            _indicator.transform.localPosition += offset;
+        }
+
+        public void OnDeselect(Transform selection)
+        {
+            if (_indicator != null)
+            {
+                Destroy(_indicator);
+            }
         }
     }
 }

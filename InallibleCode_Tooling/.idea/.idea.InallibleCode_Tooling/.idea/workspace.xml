@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28201359-2fcf-4592-8c82-9e8188993195" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/CompositeSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/CompositeSelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/HighlightSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/HighlightSelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/ISelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/ISelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/IndicatorSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/IndicatorSelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/OutlineSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SelectionResponse/OutlineSelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Switcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Switcher.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000001628446884" />
+      <entry key="MS500" value="1.0438889023668123" />
+      <entry key="S2" value="1.4577654437208905" />
+      <entry key="S5" value="1.817993793998284" />
+      <entry key="S10" value="3.324590472574464" />
+      <entry key="S30" value="14.534978837763196" />
+      <entry key="S60" value="25.094587810029406" />
+      <entry key="M2" value="36.53877295196868" />
+      <entry key="M5" value="55.313745026732164" />
+      <entry key="M10" value="76.29897515963596" />
+      <entry key="M15" value="91.84308677698391" />
+      <entry key="M30" value="121.10112615368642" />
+      <entry key="H1" value="147.00787126414988" />
+      <entry key="H2" value="165.04725912705683" />
+      <entry key="H4" value="175.81728269014735" />
+      <entry key="D1" value="185.8623919670421" />
+      <entry key="W1" value="187.69187583976174" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.76603396210739E-177" />
+      <entry key="S5" value="3.943551788409317E-71" />
+      <entry key="S10" value="6.284594231675348E-36" />
+      <entry key="S30" value="2.0139210134051817E-12" />
+      <entry key="S60" value="1.7693624036705742E-6" />
+      <entry key="M2" value="0.0018066180579831563" />
+      <entry key="M5" value="0.12107796250091055" />
+      <entry key="M10" value="0.5480796211955609" />
+      <entry key="M15" value="1.0005622113636143" />
+      <entry key="M30" value="2.06029470266096" />
+      <entry key="H1" value="3.1400531752423078" />
+      <entry key="H2" value="3.940797329213028" />
+      <entry key="H4" value="4.4329355269872295" />
+      <entry key="D1" value="4.899777813430405" />
+      <entry key="W1" value="4.985535506982873" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659364862224461" />
+      <entry key="MS500" value="1.036678235010486" />
+      <entry key="S2" value="1.4552415256987974" />
+      <entry key="S5" value="1.8167333720109504" />
+      <entry key="S10" value="3.3234186860684924" />
+      <entry key="S30" value="14.533237685909475" />
+      <entry key="S60" value="25.093080223610357" />
+      <entry key="M2" value="36.53931694134718" />
+      <entry key="M5" value="55.429204529114294" />
+      <entry key="M10" value="76.83468594018095" />
+      <entry key="M15" value="92.82869237725058" />
+      <entry key="M30" value="123.14633242437182" />
+      <entry key="H1" value="150.13661677491802" />
+      <entry key="H2" value="168.98102935421514" />
+      <entry key="H4" value="180.2462860330516" />
+      <entry key="D1" value="190.7614485535757" />
+      <entry key="W1" value="192.6773065903068" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MADR8mcvOdYI08YPbYWlu6PTb6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\samfu\Documents\GitHub\M4-PR2-SOLID-Selection-Plus-Plus\InallibleCode_Tooling -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\samfu\Documents\GitHub\M4-PR2-SOLID-Selection-Plus-Plus\InallibleCode_Tooling" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\samfu\Documents\GitHub\M4-PR2-SOLID-Selection-Plus-Plus\InallibleCode_Tooling -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\samfu\Documents\GitHub\M4-PR2-SOLID-Selection-Plus-Plus\InallibleCode_Tooling" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="coreClr" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28201359-2fcf-4592-8c82-9e8188993195" name="Changes" comment="" />
+      <created>1794784470880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794784470880</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

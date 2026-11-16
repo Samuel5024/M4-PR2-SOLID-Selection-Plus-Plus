@@ -1,28 +1,31 @@
 using UnityEngine;
 
-public class OutlineSelectionResponse : MonoBehaviour, ISelectionResponse
+namespace _Project.Scripts.SelectionResponse
 {
-    public Outline.Mode OutlineMode;
-    public Color outlineColor;
-	public float outlineWidth = 20;
+    public class OutlineSelectionResponse : MonoBehaviour, ISelectionResponse
+    {
+        public Outline.Mode OutlineMode;
+        public Color outlineColor;
+        public float outlineWidth = 20;
 	
-    public void OnSelect(Transform selection)
-    {
-        var outline = selection.GetComponent<Outline>();
-        if (outline != null)
+        public void OnSelect(Transform selection)
         {
-            outline.OutlineMode = OutlineMode;
-            outline.OutlineColor = outlineColor;
-            outline.OutlineWidth = outlineWidth;
+            var outline = selection.GetComponent<Outline>();
+            if (outline != null)
+            {
+                outline.OutlineMode = OutlineMode;
+                outline.OutlineColor = outlineColor;
+                outline.OutlineWidth = outlineWidth;
+            }
         }
-    }
 
-    public void OnDeselect(Transform selection)
-    {
-        var outline = selection.GetComponent<Outline>();
-        if (outline != null)
+        public void OnDeselect(Transform selection)
         {
-            outline.OutlineWidth = 0;
+            var outline = selection.GetComponent<Outline>();
+            if (outline != null)
+            {
+                outline.OutlineWidth = 0;
+            }
         }
     }
 }

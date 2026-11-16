@@ -9,9 +9,33 @@ public class Switcher : MonoBehaviour
 
     private void Start()
     {
+        if (ChangeableObjects == null)
+        {
+            Debug.LogError("Switcher has no ChangeableObjects list assigned.", this);
+            return;
+        }
+
         foreach (var changeable in ChangeableObjects)
         {
-            _changeableObjects.Add(changeable.GetComponent<IChangeable>());
+            if (changeable == null)
+            {
+                Debug.LogError("Switcher contains an empty ChangeableObjects entry.", this);
+                continue;
+            }
+
+            var changeableComponent = changeable.GetComponent<IChangeable>();
+            if (changeableComponent == null)
+            {
+                Debug.LogError($"{changeable.name} does not have a component implementing IChangeable.", changeable);
+                continue;
+            }
+
+            _changeableObjects.Add(changeableComponent);
+        }
+
+        if (_changeableObjects.Count == 0)
+        {
+            Debug.LogError("Switcher has no valid IChangeable components to switch.", this);
         }
     }
 
